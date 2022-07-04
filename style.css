@@ -12,7 +12,7 @@ h1{
 section{
     display: flex;
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -28,8 +28,8 @@ p{
     padding: 4%;
     margin-left: 4%;
 }
-img{
-    width:95%;
+half-width img{
+    width:90%;
     padding-top: 4%;
 }
 .anchor-button{
@@ -46,4 +46,10 @@ img{
 .anchor-button:hover{
     color:brown;
     background-color: orange;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
 }
